@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/* 描画画面 */
+canvas {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: contain;
+  image-rendering: crisp-edges;
+}
+
+/* 表示しないクラス */
+.none {
+  display: none;
+}
+
+/* 全体 */
+body {
+  background-color: #000;
+  color: #FFF;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: hidden;
+}
+html {
+  font-size: 14pt;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  inline-size: 100%;
+  block-size: 100%;
+  overflow: hidden;
+}
+
+/* すべて */
+* {
+  margin: 0;
+  padding: 0;
+  border-style: none;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 2em;
+  word-spacing: 0.25em;
+  box-sizing: border-box;
+  outline: none;
+  touch-action: manipulation;
+}
